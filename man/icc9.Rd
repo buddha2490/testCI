@@ -55,10 +55,10 @@ Brian Carter (brian.carter@cancer.org)
 icc9(y="X48761", subject="subjid", dat=qc)
 
 # Example 2 - using BATCH1 as a fixed effect
-icc9(y="X48761", subject="subjid", fixed=BATCH1, dat=qc)
+icc9(y="X48761", subject="subjid", fixed="BATCH1"", dat=qc)
 
 # Example 3 - Using multiple fixed effects
-icc9(y="X48761", subject="subjid", fixed=c(BATCH1,BATCH2), dat=qc)
+icc9(y="X48761", subject="subjid", fixed=c("BATCH1","BATCH2"), dat=qc)
 
 # Exmample 4 - Using the function for multiple response variables
 library(dplyr)
