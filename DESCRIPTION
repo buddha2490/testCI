@@ -1,0 +1,15 @@
+Package: icc9
+Type: Package
+Title: Calculates reliability coefficients (ICC) and confidence intervals
+Version: 0.1.0
+Author: Brian Carter
+Maintainer: Brian Carter <brian.carter@cancer.org>
+Description: This R package contains the icc9() function which replicates the ICC9 SAS Macro published by Ellen Hertzmark and Donna Spiegelman.
+Imports:	
+	lme4
+Remotes: 
+	marklhc/bootmlm
+License: None
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
