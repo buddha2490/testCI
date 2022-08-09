@@ -6,9 +6,9 @@ Author: Brian Carter
 Maintainer: Brian Carter <brian.carter@cancer.org>
 Description: This R package contains the icc9() function which replicates the ICC9 SAS Macro published by Ellen Hertzmark and Donna Spiegelman.
 Imports:	
+	dplyr,
+	tidyr,
 	lme4
-Remotes: 
-	marklhc/bootmlm
 License: None
 Encoding: UTF-8
 LazyData: true
