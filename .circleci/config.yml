@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: rocker/verse:3.5.3
+      - image: rocker/verse:4.2.1
     steps:
       - checkout
       - run:

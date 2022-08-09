@@ -1,2 +1,4 @@
 ^\.circleci$
 ^Dockerfile$
+^.*\.Rproj$
+^\.Rproj\.user$
